@@ -9,5 +9,10 @@
         $('.timepicker').pickatime({
             interval: 30
         });
+        $('.button-submit').submit(function(event){
+          event.preventDefault();
+          console.log("prevented default");
+          return false;
+        })
     }); // end of document ready
 })(jQuery); // end of jQuery name space
