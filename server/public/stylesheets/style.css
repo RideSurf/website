@@ -72,12 +72,16 @@ footer.page-footer {
     margin-left: 5%;
 }
 
-#map {
+#map2 {
     height: auto;
     width: auto;
     max-width: 100%;
 }
 
+#map {
+    height: 300px;
+    width: auto;
+}
 .controls {
     margin-top: 10px;
     border: 1px solid transparent;
