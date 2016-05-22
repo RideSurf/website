@@ -13,7 +13,7 @@ router.get('/trip', function (req, res, next) {
 
 /* GET confirmation page. */
 router.get('/confirmation', function (req, res, next) {
-    res.render('confimation', { title: 'Confirmation' });
+    res.render('confirmation', { title: 'Confirmation' });
 });
 
 module.exports = router;
