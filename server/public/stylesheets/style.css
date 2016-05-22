@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+.interest {
+    height: 55px;
+}
+
 nav ul a,
 nav .brand-logo {
     color: #444;
