@@ -11,8 +11,8 @@ router.get('/trip', function (req, res, next) {
     res.render('addTrip', { title: 'Add a trip' });
 });
 
-/* GET addTrip page. */
-router.get('/confirm', function (req, res, next) {
+/* GET confirmation page. */
+router.get('/confirmation', function (req, res, next) {
     res.render('confimation', { title: 'Confirmation' });
 });
 
